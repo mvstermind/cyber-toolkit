@@ -7,6 +7,7 @@ import (
 )
 
 func PrintUnicornAscii() {
+	fmt.Print("\033[H\033[2J")
 	file, err := os.Open("ui/ascii_art.txt")
 	if err != nil {
 		fmt.Println("Error opening file:", err)
