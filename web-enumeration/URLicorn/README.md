@@ -1,1 +1,4 @@
-enumeration tool for everything site related dns subdomains etc
+tui web enumeration tool
+
+todo:
+- make it work (bruh)
